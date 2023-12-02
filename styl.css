@@ -1,0 +1,157 @@
+/* Estilos generales del chatbot */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff; /* Azul brillante */
+  margin-bottom: 20px;
+}
+
+.form {
+  height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.inbox {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.icon {
+  background-color: #007bff; /* Azul brillante */
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.msg-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.msg-header p {
+  margin: 0;
+}
+
+.typing-field {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input-data {
+  flex: 1;
+  display: flex;
+}
+
+#data {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 16px;
+}
+
+#send-btn {
+  background-color: #007bff; /* Azul brillante */
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#send-btn:hover {
+  background-color: #0056b3; /* Azul oscuro */
+}
+
+/* Estilos del navbar */
+.navbar {
+  background-color: #343a40; /* Azul oscuro */
+}
+
+.navbar-brand {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #343a40; /* Azul oscuro */
+  padding: 20px 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+/* Estilos del formulario de registro */
+.form-outline {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 7px 10px;
+  color: #007bff; /* Azul brillante */
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+
+.form-control {
+  border: 2px solid #007bff; /* Azul brillante */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 5px #007bff; /* Azul brillante */
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #007bff; /* Azul brillante */
+  color: #fff;
+}
